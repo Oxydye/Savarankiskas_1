@@ -29,11 +29,9 @@ int main(){
 
         if (funkcija > 4){
         cout << "Neteisinga ivestis. Spauskite nuo 1 iki 4.";
-            return 0;
         }
         if (funkcija < 1){
         cout << "Neteisinga ivestis. Spauskite nuo 1 iki 4.";
-        return 0;
         }
         if (funkcija == 1){
             cout << "Pasirinkite valiuta, kuria norite palyginti su EUR (1-3).\n";
@@ -43,7 +41,6 @@ int main(){
             cin >> valiuta;
             if (valiuta < 1 || valiuta > 3) {
                 cout << "Pasirink valiuta ivesdamas nuo 1 iki 3";
-                return 0;
             }
             if (valiuta == 1) {
                 cout << "1 EUR = " << GBP_Bendras << " GBP\n";
@@ -58,7 +55,6 @@ int main(){
                 cout << "1 INR = " << 1/INR_Bendras << " EUR\n";
             }
 
-        return 0;
         }
         if (funkcija == 2){
         cout << "Pasirinkite valiuta, kuria norite pirkti (1-3).\n";
@@ -116,7 +112,6 @@ int main(){
 
         if (funkcija == 4){
         cout << "Geros dienos.\n";
-            return 0;
         }
         return 0;
 }
